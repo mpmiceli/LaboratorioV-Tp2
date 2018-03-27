@@ -25,7 +25,7 @@ public class Mecanico implements Observer{
             float anterior = this.valorAceite;
             System.out.println("Aceite anterior: " + anterior);
             
-            this.valorAceite += ((Auto) o).getNivelAceite();
+            this.valorAceite += ((Auto)o).getNivelAceite();
             
             System.out.println("Carga de aceite: " + ((Auto)o).getNivelAceite());
             System.out.println("Nivel de aceite actual: " + this.valorAceite);
