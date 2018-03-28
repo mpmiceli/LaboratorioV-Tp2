@@ -19,7 +19,7 @@ public class LaboratorioVTp2 {
         Mecanico b = new Mecanico();
         
         System.out.println("Agua inicial: " + a.getNivelAgua());
-        System.out.println("aceite inicial: " + a.getNivelAceite());
+        System.out.println("Aceite inicial: " + a.getNivelAceite());
         System.out.println("Presion inicial: " + a.getPresionNeumaticos());
         
         a.addObserver(b);
@@ -31,7 +31,6 @@ public class LaboratorioVTp2 {
         a.cambiarNivelAgua(5);
         a.cambiarNivelAgua(2);
         
-       
         a.cambiarPresionNeumaticos(2);
         a.cambiarPresionNeumaticos(9);
     }
